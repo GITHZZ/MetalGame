@@ -29,7 +29,6 @@ class GameObject : NSObject
         
         self.device = MetalView.getInstance.device
         
-        //测试用
         self.readShadersFunction("basic_fragment", vertex: "basic_vertex")
     }
     
